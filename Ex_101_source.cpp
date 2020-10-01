@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
 	int sumOfIntegers = 0;
-	cout << "Please enter 10 integers to sum up" << endl;
+	cout << "Please Enter 10 integers to sum up" << endl;
 
 	for (int i = 1; i < 11; i++) //ask 10 times for integer
 	{
@@ -22,7 +22,7 @@ int main()
 	cout << "Sum of your 10 integers is " << sumOfIntegers << endl;
 
 	//wait for action before closing the window
-	cout << "Press ENTER to exit..." << endl;
+	cout << "Press ENTER to Exit..." << endl;
 	cin.ignore(10, '\n');
 	cin.get();
 	return 0;
